@@ -4,40 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Do+Hyeon&family=Island+Moments&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <title>Document</title>
     <style>
+        body {
+            background-color: black;
+            font-family: 'Island Moments', cursive;
+
+        }
         .header {
-            border: 1px solid red;
             text-align: center;
         }
         .header #thumbnail {
-            border: 1px solid yellow;
+            border: 10px solid rgba(255, 255, 255, 0.8);
+            border-radius: 100%;
+            display: inline-block;
         }
         .header #thumbnail video {
-            border: 1px solid aqua;
             background-color: black;
             width: 500px;
             height: 500px;
             border-radius: 100%;
-
         }
         /* text  */
         .header h1 {
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 200;
+            font-size: 3rem;
         }
         .header h1 strong {
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 200;
-            border-bottom: 1px dotted black;
+            border-bottom: 1px dotted rgba(255, 255, 255, 0.8);
+        }
+        .header h1 strong:hover {
+            color: white;
+            font-size: 4rem;
         }
 
         /* list  */
         .header ul {
-            border: 1px solid red;
             padding-top: 30px;
             /* display: inline-block; */
         }
         .header li {
-            border: 1px solid red;
             display: inline-block;
             width: 100px;
             height: 100px;
@@ -48,20 +62,20 @@
             height: 20px;
             text-decoration: none;
             border-radius: 100%;
-            background-color: black;
+            background-color: rgba(255, 255, 255, 0.8);
         }
 
         .header #spring:hover {
-            background-color: red;
+            background-color: rgba(255, 0, 0, 0.5);
         }
         .header #summer:hover {
-            background-color: green;
+            background-color: rgba(0, 255, 0, 0.5);
         }
         .header #fall:hover {
-            background-color: yellow;
+            background-color: rgba(255, 255, 0, 0.5);
         }
         .header #winter:hover {
-            background-color: blue;
+            background-color: rgba(0, 0, 255, 0.5);
         }
         .main #columns{
             column-count: 3;
@@ -81,7 +95,7 @@
     <header class="header">
         <div id="thumbnail">
             <video muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="Snowfall.mp4" type="video/mp4">
             </video>
         </div>
         <h1>Four beautiful seasons of <strong>2022</strong></h1>
@@ -96,44 +110,44 @@
     <section class="main">
         <div id="columns">
             <video id="1" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-1.mp4" type="video/mp4">
             </video>
             
             <video id="2" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-2.mp4" type="video/mp4">
             </video>
             
             <video id="3" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-3.mp4" type="video/mp4">
                 
             </video>
             
             <video id="4" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-1.mp4" type="video/mp4">
                 
             </video>
             
             <video id="5" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-2.mp4" type="video/mp4">
                 
             </video>
             
             <video id="6" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-3.mp4" type="video/mp4">
                 
             </video>
             
             <video id="7" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-1.mp4" type="video/mp4">
                 
             </video>
             
             <video id="8" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-2.mp4" type="video/mp4">
                 
             </video>
             <video id="9" muted autoplay loop>
-                <source src="Turntable.mp4" type="video/mp4">
+                <source src="winter-3.mp4" type="video/mp4">
                 
             </video>
         </div>
