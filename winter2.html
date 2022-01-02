@@ -21,6 +21,26 @@
             border-radius: 100%;
 
         }
+        /* text  */
+        .header h1 {
+            font-weight: 200;
+        }
+        .header h1 strong {
+            font-weight: 200;
+            border-bottom: 1px dotted black;
+        }
+
+        /* list  */
+        .header ul {
+            /* display: inline-block; */
+
+        }
+        .header li {
+            display: inline-block;
+        }
+        .header a {
+            text-decoration: none;
+        }
         .main #columns{
             column-count: 3;
             column-gap: 10px;
@@ -42,7 +62,13 @@
                 <source src="Turntable.mp4" type="video/mp4">
             </video>
         </div>
-        <h1>Four beautiful seasons of <string>2022.</string></h1>
+        <h1>Four beautiful seasons of <strong>2022</strong></h1>
+        <ul>
+        <li><a href="#spring">spring</a></li>
+        <li><a href="#summer">summer</a></li>
+        <li><a href="#fall">fall</a></li>
+        <li><a href="#winter">winter</a></li>
+        </ul>
     </header>
 
     <section class="main">
