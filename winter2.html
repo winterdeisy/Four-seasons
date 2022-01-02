@@ -32,14 +32,36 @@
 
         /* list  */
         .header ul {
+            border: 1px solid red;
+            padding-top: 30px;
             /* display: inline-block; */
-
         }
         .header li {
+            border: 1px solid red;
             display: inline-block;
+            width: 100px;
+            height: 100px;
         }
         .header a {
+            display: block;
+            width: 20px;
+            height: 20px;
             text-decoration: none;
+            border-radius: 100%;
+            background-color: black;
+        }
+
+        .header #spring:hover {
+            background-color: red;
+        }
+        .header #summer:hover {
+            background-color: green;
+        }
+        .header #fall:hover {
+            background-color: yellow;
+        }
+        .header #winter:hover {
+            background-color: blue;
         }
         .main #columns{
             column-count: 3;
@@ -64,10 +86,10 @@
         </div>
         <h1>Four beautiful seasons of <strong>2022</strong></h1>
         <ul>
-        <li><a href="#spring">spring</a></li>
-        <li><a href="#summer">summer</a></li>
-        <li><a href="#fall">fall</a></li>
-        <li><a href="#winter">winter</a></li>
+        <li><a id="spring" href="#spring"></a></li>
+        <li><a id="summer" href="#summer"></a></li>
+        <li><a id="fall" href="#fall"></a></li>
+        <li><a id="winter" href="#winter"></a></li>
         </ul>
     </header>
 
